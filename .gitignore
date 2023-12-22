@@ -1,3 +1,9 @@
+# Local media
+media/
+assets/videos/
+
+
+# Dependencies
 node_modules/
 
 # Mac
@@ -7,4 +13,4 @@ node_modules/
 .vscode
 
 # Plugins
-assets/js/plugins/
+assets/plugins/
