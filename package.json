@@ -1,0 +1,14 @@
+{
+  "name": "lich",
+  "version": "1.0.0",
+  "description": "Interactive map to visualize crime incidents",
+  "main": "main.js",
+  "scripts": {
+    "test": "standard && echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gurupratap Matharu",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "*"
+  }
+}
