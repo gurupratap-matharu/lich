@@ -1,0 +1,10 @@
+node_modules/
+
+# Mac
+.DS_Store
+
+# vscode
+.vscode
+
+# Plugins
+assets/js/plugins/
