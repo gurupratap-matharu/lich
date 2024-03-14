@@ -1,3 +1,24 @@
 body {
     font-family: 'Saira', sans-serif;
 }
+
+.accordion-header>button:not([class~="collapsed"]) {
+    background: rgba(255, 193, 7) !important;
+}
+
+.accordion-collapse {
+    background-color: #f0f0f0;
+}
+
+.modal-body a:link {
+    color: #83a0bd;
+    text-decoration: none;
+}
+
+.modal-body a:visited {
+    color: #213258;
+}
+
+.modal-body a:hover {
+    color: #213258;
+}
