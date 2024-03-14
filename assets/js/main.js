@@ -1,4 +1,5 @@
 import * as bootstrap from 'bootstrap'
+import L from 'leaflet'
 
 (() => {
   'use strict'
@@ -63,7 +64,7 @@ import * as bootstrap from 'bootstrap'
     'Esri NatGeo WorldMap': EsriNatGeoWorldMap
   }
 
-  const layerControl = L.control.layers(baseLayers).addTo(map)
+  L.control.layers(baseLayers).addTo(map)
 
   function polystyle (feature) {
     return { opacity: 0.5, color: 'black', weight: 1, fillOpacity: 0.5 }
@@ -134,7 +135,7 @@ import * as bootstrap from 'bootstrap'
 
     const videoUrl = feature.properties.Video || ''
     const renderVideo = videoUrl !== ''
-      ? () => clone.querySelector('iframe').src = videoUrl
+      ? () => clone.querySelector('iframe').src = videoUrl // eslint-disable-line
       : () => clone.removeChild(video)
 
     renderVideo()
@@ -237,7 +238,7 @@ import * as bootstrap from 'bootstrap'
   const welcomeModal = new bootstrap.Modal('#welcomeModal')
   welcomeModal.toggle()
 
-  const controlSearch = new L.Control.Search({
+  new L.Control.Search({
     layer: conflictsLayer,
     propertyName: 'Nombre',
     marker: false,
