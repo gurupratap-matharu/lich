@@ -236,4 +236,14 @@ import * as bootstrap from 'bootstrap'
 
   const welcomeModal = new bootstrap.Modal('#welcomeModal')
   welcomeModal.toggle()
+
+  const controlSearch = new L.Control.Search({
+    layer: conflictsLayer,
+    propertyName: 'Nombre',
+    marker: false,
+    initial: false,
+    moveToLocation: function (latlng, title, map) {
+      map.setView(latlng, 12)
+    }
+  }).addTo(map)
 })()
