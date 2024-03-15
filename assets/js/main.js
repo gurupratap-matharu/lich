@@ -1,9 +1,9 @@
 import * as bootstrap from 'bootstrap'
-import L from 'leaflet'
 
 (() => {
   'use strict'
 
+  const L = window.L
   const bsOffcanvas = new bootstrap.Offcanvas('.offcanvas')
   const map = L.map('map').setView([-34.603851, -58.381775], 9)
 
