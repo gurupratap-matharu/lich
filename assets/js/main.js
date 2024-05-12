@@ -67,12 +67,12 @@ import * as bootstrap from 'bootstrap'
     Satellite: satelliteStreets,
     'Open Street Map': OpenStreetMap,
     'Esri NatGeo WorldMap': EsriNatGeoWorldMap,
-    IGN: IGN
+    IGN
   }
 
   L.control.layers(baseLayers).addTo(map)
 
-  function polystyle(feature) {
+  function polystyle (feature) {
     return { opacity: 0.5, color: 'black', weight: 1, fillOpacity: 0.5 }
   }
 
@@ -92,7 +92,7 @@ import * as bootstrap from 'bootstrap'
     })
 
   // Build html snippet for canvas body based on each feature
-  function renderCanvasHTML(feature) {
+  function renderCanvasHTML (feature) {
     const template = document.querySelector('#canvasTemplate')
     const cbody = document.querySelector('.offcanvas-body')
 
@@ -179,7 +179,7 @@ import * as bootstrap from 'bootstrap'
     cbody.replaceChildren(clone)
   }
 
-  function buildAnchorTags(chunk) {
+  function buildAnchorTags (chunk) {
     // Helper method to build links with decorative text
     let tags = ''
 
@@ -191,19 +191,19 @@ import * as bootstrap from 'bootstrap'
   }
 
   // Bind popup for each feature
-  function onEachFeature(feature, layer) {
+  function onEachFeature (feature, layer) {
     const name = feature.properties.Nombre || '---'
     layer.bindPopup(name)
   }
 
   // Render bootstrap offcanvas with feature details
-  function renderCanvas(feature) {
+  function renderCanvas (feature) {
     renderCanvasHTML(feature)
     bsOffcanvas.toggle()
   }
 
   // Generate a marker for each feature
-  function pointToLayer(feature, latlng) {
+  function pointToLayer (feature, latlng) {
     const iconName = feature.properties['Tipo de Icono'] || 'Agua'
     const iconUrl = `assets/icons/icono-${iconName}.svg`
     const icon = L.icon({ iconUrl, iconSize: [38, 95] })
@@ -228,7 +228,7 @@ import * as bootstrap from 'bootstrap'
 
   // Resize icons on zoom
 
-  function resizeIcon(layer, iconSize) {
+  function resizeIcon (layer, iconSize) {
     const icon = layer.options.icon
     icon.options.iconSize = iconSize
     layer.setIcon(icon)
