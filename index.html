@@ -20,15 +20,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
   <link href="https://fonts.googleapis.com/css2?family=Saira:wght@200;400&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/leaflet-search.css">
-  <link rel="stylesheet" href="assets/css/styles.css">
-  <!-- Template Fragments -->
+  <link rel="stylesheet" href="assets/css/styles.css"><!-- Template Fragments -->
   <template id="canvasTemplate">
     <div class="card mb-3 p-3" style="background-color: #fec72e">
       <div class="card-body">
         <h5 class="card-title"></h5>
-        <div class="mb-3" id="canvasIcons">
-          <img src="" alt="" class="img-fluid me-1" width="30px" height="30px">
-        </div>
+        <div class="mb-3" id="canvasIcons"><img src="" alt="" class="img-fluid me-1" width="30px" height="30px"></div>
         <p class="card-text"></p>
       </div>
     </div>
@@ -47,11 +44,8 @@
     <div class="accordion" id="accordionCanvas">
       <!-- Need to repeat -->
       <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-            data-bs-target="#collapse${i}" aria-expanded="false" aria-controls="collapse${i}">
-          </button>
-        </h2>
+        <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapse${i}" aria-expanded="false" aria-controls="collapse${i}"></button></h2>
         <div id="collapse${i}" class="accordion-collapse collapse" data-bs-parent="#accordionCanvas">
           <div class="accordion-body text-body-secondary"></div>
         </div>
@@ -100,14 +94,13 @@
       </div>
     </nav>
     <div class="flex-grow-1" id="map"></div>
-  </div>
-  <!-- About Modal -->
+  </div><!-- About Modal -->
   <div class="modal fade" id="aboutModal" tabindex="-1" aria-labelledby="aboutModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="aboutModalLabel">Sobre el Mapa</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <h1 class="modal-title fs-5" id="aboutModalLabel">Sobre el Mapa</h1><button type="button" class="btn-close"
+            data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
           <div class="row">
@@ -165,14 +158,13 @@
         </div>
       </div>
     </div>
-  </div>
-  <!-- Programma Modal -->
+  </div><!-- Programma Modal -->
   <div class="modal fade" id="programmaModal" tabindex="-1" aria-labelledby="programmaModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="programmaModalLabel">Programa de Investigación</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <h1 class="modal-title fs-5" id="programmaModalLabel">Programa de Investigación</h1><button type="button"
+            class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
           <div class="row">
@@ -219,15 +211,14 @@
         </div>
       </div>
     </div>
-  </div>
-  <!--Registros AudioVisuales Modal -->
+  </div><!--Registros AudioVisuales Modal -->
   <div class="modal fade" id="audiovisualModal" tabindex="-1" aria-labelledby="audiovisualModalLabel"
     aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="audiovisualModalLabel">Registros Audiovisuales</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <h1 class="modal-title fs-5" id="audiovisualModalLabel">Registros Audiovisuales</h1><button type="button"
+            class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
           <div class="row">
@@ -288,15 +279,14 @@
         </div>
       </div>
     </div>
-  </div>
-  <!--Territorios Modal -->
+  </div><!--Territorios Modal -->
   <div class="modal fade" id="territoriosModal" tabindex="-1" aria-labelledby="territoriosModalLabel"
     aria-hidden="true">
     <div class="modal-dialog modal-fullscreen modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="territoriosModalLabel">Territorios Podcast</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <h1 class="modal-title fs-5" id="territoriosModalLabel">Territorios Podcast</h1><button type="button"
+            class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body p-3 p-md-5">
           <div class="row mb-3">
@@ -377,15 +367,14 @@
         </div>
       </div>
     </div>
-  </div>
-  <!--Proyectos Acreditados Modal -->
+  </div><!--Proyectos Acreditados Modal -->
   <div class="modal fade" id="proyectosacreditadosModal" tabindex="-1" aria-labelledby="proyectosacreditadosModalLabel"
     aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="proyectosacreditadosModalLabel">Proyectos Acreditados</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <h1 class="modal-title fs-5" id="proyectosacreditadosModalLabel">Proyectos Acreditados</h1><button
+            type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
           <div class="row">
@@ -413,24 +402,20 @@
         </div>
       </div>
     </div>
-  </div>
-  <!--Producciones Recientes Modal -->
+  </div><!--Producciones Recientes Modal -->
   <div class="modal fade" id="produccionesrecientesModal" tabindex="-1"
     aria-labelledby="produccionesrecientesModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable modal-fullscreen">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="produccionesrecientesModalLabel">Producciones recientes</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <h1 class="modal-title fs-5" id="produccionesrecientesModalLabel">Producciones recientes</h1><button
+            type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
           <div class="row produccion-recientes p-3 p-md-5">
             <div class="col-12 col-md-4">
-              <h5 class="mb-3"><small><strong><small>Libros y capítulos del libro</small></strong></small></h5>
-              <p>Álvarez Álvaro (2021). <a
-                  href="https://biblioteca.clacso.edu.ar/clacso/se/20210826033809/Infraestructuras-transporte.pd">Infraestructuras
-                  de transporte y disputas territoriales: La IIRSA en Santa Fe</a> FCH/UNICEN, CLACSO. Buenos Aires</p>
-              <hr>
+              <h5 class="mb-3"><small><strong>Libros y capítulos del libro</strong></small></h5>
+              <p class="mb-3"><strong>2024</strong></p>
               <p>Eljall, Ana y Gárgano, Cecilia (2024). <a
                   href="https://www.teseopress.com/lassociedadesfrentealproblemaambiental/" target="_blank">Reflexiones
                   en torno
@@ -439,11 +424,17 @@
                 en
                 tiempos urgentes. Buenos Aires: Teseo.</p>
               <hr>
-              <p>Gárgano, Cecilia (2022). <a
-                  href="https://cl.boell.org/es/2022/04/29/el-campo-como-alternativa-infernal">El Campo como Alternativa
-                  Infernal. Pasado y presente de una matriz productiva ¿sin escapatoria?</a> Buenos Aires: Imago Mundi,
-                Heinrich Böll Stiftung Cono Sur, 290 pp. <a href="https://youtu.be/wvTx1uy3BHY?feature=shared">Booktube
-                  LICH-EH El campo como alternativa infernal</a></p>
+              <p>Gárgano, C. (2024). A 40 años, alternativas infernales de la democracia argentina en el agro. En
+                Cornaglia, M. (Comp.) <a
+                  href="https://www.oximoron.ar/productos/curso-acelerado-el-extractivismo-hace-docencia-mauricio-cornaglia-comp/"
+                  target="_blank">Curso acelerado: el extractivismo hace docencia.</a> Rosario: Último Recurso
+                (pp.32-52).</p>
+              <hr>
+              <p class="mb-3"><strong>2023</strong></p>
+              <p>Hans-Jürgen Burchardt, Cecilia Gárgano y Lucas G. Christel (Comps.) (2023) <a
+                  href="https://libreria.clacso.org/publicacion.php?p=2993&amp;c=39">De la sustentabilidad al
+                  desarrollo? Entre
+                  el extractivismo verde y la transformación socioambiental</a> Buenos Aires: CLACSO.</p>
               <hr>
               <p>Gárgano, Cecilia y Álvarez, Álvaro (2023). Matriz productiva del agro argentino.
                 Des-territorialización, infraestructura y crisis socioecológica. En Hans-Jürgen Burchardt, Cecilia
@@ -452,6 +443,45 @@
                   desarrollo? Entre
                   el extractivismo verde y la transformación socioambiental</a> Buenos Aires: CLACSO (pp. 309-330).</p>
               <hr>
+              <p>Piaz, Agustín (2023). Energías renovables en América Latina Transiciones energéticas, políticas
+                públicas y resistencias sociales. En Hans-Jürgen Burchardt, Cecilia Gárgano y Lucas G. Christel (Comps.)
+                (2023) <a href="https://libreria.clacso.org/publicacion.php?p=2993&amp;c=39">De la sustentabilidad al
+                  desarrollo? Entre el extractivismo verde y la transformación socioambiental</a> Buenos Aires: CLACSO
+                (pp.
+                267-289).</p>
+              <hr>
+              <p>Poth, C.; Gárgano, C.; García Carillo, M. y Blaustein, M. (2023). <a
+                  href="https://contrahegemoniaweb.com.ar/2023/09/28/1983-2023-cartografia-de-una-democracia-de-la-derrota/">40
+                  años de dependencia académica, mercantilización del conocimiento y colonialidad del saber: apuntes
+                  para
+                  repensar una democratización de la ciencia. En AAVV 1983-2023.</a> Cartografía de una democracia de la
+                derrota. Buenos Aires: Contrahegemonía/Herramienta (pp.247-267).</p>
+              <hr>
+              <p class="mb-3"><strong>2022</strong></p>
+              <p>Gárgano, Cecilia (2022). <a
+                  href="https://cl.boell.org/es/2022/04/29/el-campo-como-alternativa-infernal">El Campo como Alternativa
+                  Infernal. Pasado y presente de una matriz productiva ¿sin escapatoria?</a> Buenos Aires: Imago Mundi,
+                Heinrich Böll Stiftung Cono Sur, 290 pp. <a href="https://youtu.be/wvTx1uy3BHY?feature=shared">Booktube
+                  LICH-EH El campo como alternativa infernal</a></p>
+              <hr>
+              <p>Maldonado, A. C.; Mombello. L., y Spivak L´Hoste, A. (2022). El puesto y la cigüeña. Proyectos de
+                territorio en fricción al norte de la provincia de Río Negro Disputas en torno a la tierra y el
+                territorio. Valores, proyectos e imágenes en tensión. pp. 27 - 66</p>
+              <hr>
+              <p>Piaz, Agustín y Gárgano, Cecilia (2022). “El rol de la ciencia en los “territorios liberados”. Un
+                diálogo con Andrés Carrasco (in memoriam)”, en Folguera, G. (Ed.), Modelo agroindustrial argentino:
+                miradas plurales de un pensar colectivo. Buenos Aires: EUDEBA.</p>
+              <hr>
+              <p>Piaz, Agustín (2022). “Uranio, tecnología nuclear y conflictos ambientales en Argentina: el caso
+                Córdoba”, en Ruggerio, C.; Besana,P.; Paneque, J. y Suárez, F. (comps.) Los conflictos ambientales en
+                América Latina III. CIGA-UNAM (México) y Editoriales UNGS (Argentina)</p>
+              <hr>
+              <p class="mb-3"><strong>2021</strong></p>
+              <p>Álvarez Álvaro (2021). <a
+                  href="https://biblioteca.clacso.edu.ar/clacso/se/20210826033809/Infraestructuras-transporte.pd">Infraestructuras
+                  de transporte y disputas territoriales: La IIRSA en Santa Fe</a> FCH/UNICEN, CLACSO. Buenos Aires</p>
+              <hr>
+              <p class="mb-3"><strong>2020</strong></p>
               <p>Gárgano, C. (2020a). ¿Para qué y para quiénes se organizan las agendas de investigación rural?
                 Producción de conocimientos y semillas (y apuntes en favor de una teoría crítica de la ciencia). En
                 Lazos
@@ -472,56 +502,23 @@
                   del Agro Iberoamericano.</a> Buenos Aires: Teseo, Centro de Estudios de la Argentina Rural
                 (CEAR-UNQ).</p>
               <hr>
-              <p>Hans-Jürgen Burchardt, Cecilia Gárgano y Lucas G. Christel (Comps.) (2023) <a
-                  href="https://libreria.clacso.org/publicacion.php?p=2993&amp;c=39">De la sustentabilidad al
-                  desarrollo? Entre
-                  el extractivismo verde y la transformación socioambiental</a> Buenos Aires: CLACSO.</p>
-              <hr>
-              <p>Maldonado, A. C.; Mombello. L., y Spivak L´Hoste, A. (2022). El puesto y la cigüeña. Proyectos de
-                territorio en fricción al norte de la provincia de Río Negro Disputas en torno a la tierra y el
-                territorio. Valores, proyectos e imágenes en tensión. pp. 27 - 66</p>
-              <hr>
               <p>Mombello, Laura y Spivak L´Hoste, Ana (Comps). (2020). Naturaleza y conocimientos en tensión. <a
                   href="https://www.teseopress.com/bienes/">Aportes al debate ambiental desde las ciencias sociales.</a>
                 Teseo
                 Press, Buenos Aires, Argentina.</p>
               <hr>
-              <p>Piaz, Agustín (2023). Energías renovables en América Latina Transiciones energéticas, políticas
-                públicas y resistencias sociales. En Hans-Jürgen Burchardt, Cecilia Gárgano y Lucas G. Christel (Comps.)
-                (2023) <a href="https://libreria.clacso.org/publicacion.php?p=2993&amp;c=39">De la sustentabilidad al
-                  desarrollo? Entre el extractivismo verde y la transformación socioambiental</a> Buenos Aires: CLACSO
-                (pp.
-                267-289).</p>
-              <hr>
-              <p>Piaz, Agustín y Gárgano, Cecilia (2022). “El rol de la ciencia en los “territorios liberados”. Un
-                diálogo con Andrés Carrasco (in memoriam)”, en Folguera, G. (Ed.), Modelo agroindustrial argentino:
-                miradas plurales de un pensar colectivo. Buenos Aires: EUDEBA.</p>
-              <hr>
-              <p>Piaz, Agustín (2022). “Uranio, tecnología nuclear y conflictos ambientales en Argentina: el caso
-                Córdoba”, en Ruggerio, C.; Besana,P.; Paneque, J. y Suárez, F. (comps.) Los conflictos ambientales en
-                América Latina III. CIGA-UNAM (México) y Editoriales UNGS (Argentina)</p>
-              <hr>
-              <p>Poth, C.; Gárgano, C.; García Carillo, M. y Blaustein, M. (2023). <a
-                  href="https://contrahegemoniaweb.com.ar/2023/09/28/1983-2023-cartografia-de-una-democracia-de-la-derrota/">40
-                  años de dependencia académica, mercantilización del conocimiento y colonialidad del saber: apuntes
-                  para
-                  repensar una democratización de la ciencia. En AAVV 1983-2023.</a> Cartografía de una democracia de la
-                derrota. Buenos Aires: Contrahegemonía/Herramienta (pp.247-267).</p>
-              <hr>
+              <p class="mb-3"><strong>2018</strong></p>
               <p>Prieto, Martín (2018) “Los enredos de una taxonomía: sociedades y naturalezas en las fauces de la
                 crisis ambiental”, en Conexiones y fronteras. Desafíos filosóficos de las ciencias sociales en el siglo
                 XXI. Buenos Aires: Biblos</p>
             </div>
             <div class="col-12 col-md-4">
               <h5 class="mb-3"><strong><small>Artículos</small></strong></h5>
+              <p class="mb-3"><strong>2023</strong></p>
               <p>Álvarez, Álvaro (2023). <a
                   href="https://cuadernosdelcuriham.unr.edu.ar/index.php/CURIHAM/article/view/227"
                   target="_blank">Agronegocio y
                   crisis hídrica en la cuenca del río Paraná.</a> Cuadernos del CURIHAM.</p>
-              <hr>
-              <p>Álvarez, Álvaro. (2021). <a href="https://ojs.iade.org.ar/index.php/re/article/view/181">Extractivismo,
-                  producción del territorio y
-                  conflicto en la Hidrovía Paraguay- Paraná</a> , Revista Realidad Económica 344, 39-68</p>
               <hr>
               <p>Beleira, Mariano (2023). <a
                   href="https://revistacomun.com/blog/una-nacion-trabajadora-a-partir-de-la-soberania-alimentaria/">Una
@@ -533,6 +530,7 @@
                   Socioecological Crisis, Front. Public Health, Sec. Environmental health and Exposome, Volume 11 doi:
                   10.3389/fpubh.2023.1304514</a></p>
               <hr>
+              <p class="mb-3"><strong>2022</strong></p>
               <p>Gárgano, C. (2022). <a href="https://doi.org/10.32991/2237-2717.2022v12i3.p164-192">Mujeres con “La
                   Soja al Cuello”. Experiencias y evidencias en torno a la Contaminación de Cuerpos y Territorios en
                   Buenos
@@ -544,6 +542,21 @@
                   en torno
                   al primer trigo transgénico del mundo.</a> Trama 11(1)</p>
               <hr>
+              <p>Kropff Causa, Laura y Spivak L'Hoste, A. (2022). <a
+                  href="https://www.conicet.gov.ar/new_scp/detalle.php?keywords=spivak&amp;id=27914&amp;articulos=yes&amp;detalles=yes&amp;art_id=10499686">
+                  Territorialidades en conflicto en torno a un parque eólico en Argentina.</a> Revista Anthropologica,
+                vol.
+                40 p. 227 - 254</p>
+              <hr>
+              <p>Prieto, Martín y otros (2022) <a
+                  href="https://www.researchgate.net/publication/359808424_Pensar_la_comunicacion_del_ambiente_y_los_vinculos_que_establecemos_con_el_mundo_una_conversacion_con_Laura_Borsellino">
+                  Pensar la comunicación del ambiente y los vínculos que establecemos con el mundo: una conversación con
+                  Laura Borsellino.</a> Revista Estudios Ambientales 9, 212 - 251</p>
+              <p class="mb-3"><strong>2021</strong></p>
+              <p>Álvarez, Álvaro. (2021). <a href="https://ojs.iade.org.ar/index.php/re/article/view/181">Extractivismo,
+                  producción del territorio y
+                  conflicto en la Hidrovía Paraguay- Paraná</a> , Revista Realidad Económica 344, 39-68</p>
+              <hr>
               <p>Gárgano, C. (2021). <a href="https://kavilando.org/revista/index.php/kavilando/article/view/398">El
                   agro argentino en estado de excepción permanente. San José de la Esquina, del accidente a la
                   normalización.</a> Revista Kavilando 12(2), 310-325. Recuperado de</p>
@@ -553,6 +566,7 @@
                 Economía
                 22.</p>
               <hr>
+              <p class="mb-3"><strong>2020</strong></p>
               <p>Gárgano, C. (2020a). <a href="https://doi.org/10.17141/letrasverdes.28.2020.4426">Problemáticas
                   socioambientales, expertos, y encrucijadas en el campo argentino. Letras Verdes.</a> Revista
                 Latinoamericana De Estudios Socioambientales, (28), 49-66.</p>
@@ -565,39 +579,41 @@
                   histórico, ciencia y tecnología. Apuntes para una teoría crítica de la ciencia desde el desierto verde
                   argentino.</a> Realidad Económica Vol. 49, n° 300, 9-34.</p>
               <hr>
-              <p>Kropff Causa, Laura y Spivak L'Hoste, A. (2022). <a
-                  href="https://www.conicet.gov.ar/new_scp/detalle.php?keywords=spivak&amp;id=27914&amp;articulos=yes&amp;detalles=yes&amp;art_id=10499686">
-                  Territorialidades en conflicto en torno a un parque eólico en Argentina.</a> Revista Anthropologica,
-                vol.
-                40 p. 227 - 254</p>
-              <hr>
-              <p>Prieto, Martín y otros (2022) <a
-                  href="https://www.researchgate.net/publication/359808424_Pensar_la_comunicacion_del_ambiente_y_los_vinculos_que_establecemos_con_el_mundo_una_conversacion_con_Laura_Borsellino">
-                  Pensar la comunicación del ambiente y los vínculos que establecemos con el mundo: una conversación con
-                  Laura Borsellino.</a> Revista Estudios Ambientales 9, 212 - 251</p>
             </div>
             <div class="col-12 col-md-4">
               <h5 class="mb-3"><strong><small>Notas, informes y otros materiales</small></strong></h5>
+              <p class="mb-3"><strong>2024</strong></p>
+              <p><a href="https://www.agenciatss.com.ar/agronegocios-mapa-de-la-conflictividad-bonaerense/"
+                  target="_blank">Agronegocios, Mapa de la Conflictividad Bonaerense</a>, Agencia TSS</p>
+              <hr>
+              <p><a href="https://canalabierto.com.ar/2024/04/25/lanzan-un-mapa-del-agroextractivismo-bonaerense/"
+                  target="_blank">Lanzan un mapa del agroextractivismo bonaerense</a>, Canal Abierto</p>
+              <hr>
+              <p><a href="https://agencia.unq.edu.ar/?p=19933" target="_blank">Agronegocios: lanzan un mapa bonaerense
+                  que identifica conflictos socioambientales</a>, Agencia de Noticias Científicas UNQ</p>
+              <hr>
               <p>Anahí Acebal, Álvaro Álvarez, Pablo Bordón y Cecilia Gárgano (2024). <a
                   href="https://agenciatierraviva.com.ar/familias-pescadoras-del-parana-esta-aclarando-y-vamos-pescando-para-vivir/"
                   target="_blank">Familias pescadoras del Paraná: "Está aclarando y vamos pescando para vivir"</a>
                 Tierra
                 Viva.</p>
               <hr>
-              <p>Álvarez, Álvaro (2022). INFORME: <a
-                  href="https://tallerecologista.org.ar/publicacion/hidrovia-paraguay-parana-entre-el-rio-y-la-autopista-fluvial/">
-                  “Entre el Río y la Autopista Fluvial del Agronegocio”</a> Álvarez Álvaro. Informe Técnico. Cauce,
-                FARN,
-                Taller Ecologista. Aprobado y financiado por Humedales sin Frontera y Fundación Mott. (Septiembre de
-                2021
-                - julio de 2022)</p>
+              <p>Gárgano, Cecilia (2024). <a
+                  href="https://carasycaretas.org.ar/2023/12/18/la-agroecologia-propone-reconfigurar-la-manera-de-producir/"
+                  target="_blank">La agroecología propone reconfigurar la manera de producir. Revista Caras &
+                  Caretas.</a></p>
               <hr>
-              <p>Álvarez, Álvaro (2020). <a
-                  href="https://agenciatierraviva.com.ar/hidrovia-parana-paraguay-autovia-para-commodities-o-un-rio-para-la-soberania-alimentaria/">
-                  Hidrovía Paraná-Paraguay: autovía para los commodities un un río para la soberanía alimentaria</a> ,
-                31
-                de marzo de 2022, Agencia Tierra Viva</p>
+              <p>Gobbet, María Victoria (2024). <a
+                  href="https://agenciatierraviva.com.ar/un-proyecto-para-que-las-familias-agricultoras-accedan-a-la-maquinaria-agricola/"
+                  target="_blank">Un proyecto para que las familias agricultoras accedan a la maquinaria agrícola</a>
+                Tierra Viva</p>
               <hr>
+              <p>Gárgano, C. y Prieto, M. (2024). <a
+                  href="https://www.ael.ar/generales/entrevista-una-herramienta-para-rearmar-el-rompecabezas-del-agronegocio/"
+                  target="_blank">Una herramienta para rearmar el rompecabezas del agronegocio.</a> Ambiente en Lucha.
+              </p>
+              <hr>
+              <p class="mb-3"><strong>2023</strong></p>
               <p>Bejas, Gastón (2023) <a href="https://www.youtube.com/watch?v=vYLcB3Muux4" target="_blank">¿Cómo
                   afecta el litio a las comunidades altoandinas? Informe, Barricada TV.</a></p>
               <hr>
@@ -615,6 +631,36 @@
                   Argentina, entre la depredación ambiental y la inseguridad alimentaria, en FARN (comp.). Informe
                   Ambiental 2023.</a></p>
               <hr>
+              <p>Gárgano, Cecilia (2023). <a
+                  href="https://extractivism.de/es/publicaciones/extractivism-policy-briefs-es/argentina-in-the-context-of-the-global-socioenvironmental-crisis-more-agro-extractivism-to-get-out-of-the-extractivist-problem-3/"
+                  target="_blank">Argentina in the context of the global socio environmental crisis: More
+                  agro-extractivism
+                  to get out of the extractivist problem?</a> Extractivism Project</p>
+              <hr>
+              <p class="mb-3"><strong>2022</strong></p>
+              <p>Álvarez, Álvaro (2020). <a
+                  href="https://agenciatierraviva.com.ar/hidrovia-parana-paraguay-autovia-para-commodities-o-un-rio-para-la-soberania-alimentaria/">
+                  Hidrovía Paraná-Paraguay: autovía para los commodities un un río para la soberanía alimentaria</a> ,
+                31
+                de marzo de 2022, Agencia Tierra Viva</p>
+              <hr>
+              <p>Álvarez, Álvaro (2022). INFORME: <a
+                  href="https://tallerecologista.org.ar/publicacion/hidrovia-paraguay-parana-entre-el-rio-y-la-autopista-fluvial/">
+                  “Entre el Río y la Autopista Fluvial del Agronegocio”</a> Álvarez Álvaro. Informe Técnico. Cauce,
+                FARN,
+                Taller Ecologista. Aprobado y financiado por Humedales sin Frontera y Fundación Mott. (Septiembre de
+                2021
+                - julio de 2022)</p>
+              <hr>
+              <p>Gárgano, C. (2022). <a
+                  href="https://www.pagina12.com.ar/440271-cecilia-gargano-hay-que-poner-en-discusion-que-estamos-produ"
+                  target="_blank">Hay que poner en discusión qué estamos produciendo.</a> Página 12</p>
+              <hr>
+              <p>Gárgano, C. (2022). <a
+                  href="https://www.tiempoar.com.ar/informacion-general/hablar-del-campo-como-alternativa-infernal-tiene-que-ver-con-pensar-la-encrucijada-en-la-que-estamos/"
+                  target="_blank">Hablar del campo como alternativa infernal.</a> Tiempo Argentino</p>
+              <hr>
+              <p class="mb-3"><strong>2021</strong></p>
               <p>Gárgano, C. (2021). <a
                   href="https://naturaleza.ar/contenido/323/pospandemia-revista-nro-6-agosto-2021-pdf"
                   target="_blank">Lobos
@@ -630,13 +676,9 @@
                   el
                   extractivismo: incendios, sequías y un modelo agotado.</a> Agencia de Noticias Tierra Viva.</p>
               <hr>
+              <p class="mb-3"><strong>2020</strong></p>
               <p>Gárgano, C. (2020). <a href="https://www.pagina12.com.ar/284202-que-arde-con-los-humedales">¿Qué arde
                   con los humedales? La lupa sobre los agronegocios del Delta</a> , diario Página 12.</p>
-              <hr>
-              <p>Gobbet, María Victoria (2014). <a
-                  href="https://agenciatierraviva.com.ar/un-proyecto-para-que-las-familias-agricultoras-accedan-a-la-maquinaria-agricola/"
-                  target="_blank">Un proyecto para que las familias agricultoras accedan a la maquinaria agrícola</a>
-                Tierra Viva</p>
               <hr>
               <p>Paz Landeira, Florencia (2022a) <a
                   href="https://lavaca.org/mu171/mujeres-sin-veneno-encuentro-de-pueblos-fumigados-en-san-miguel-del-monte/">Mujeres
@@ -656,8 +698,7 @@
         </div>
       </div>
     </div>
-  </div>
-  <!-- Welcome Modal -->
+  </div><!-- Welcome Modal -->
   <div class="modal fade" id="welcomeModal" tabindex="-1" aria-labelledby="welcomeModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg">
       <div class="modal-content">
@@ -665,8 +706,7 @@
             src="assets/img/welcome.jpg" alt="welcome image" class="img-fluid rounded-bottom"></a>
       </div>
     </div>
-  </div>
-  <!-- Make sure you put this AFTER Leaflet's CSS -->
+  </div><!-- Make sure you put this AFTER Leaflet's CSS -->
   <script src="assets/plugins/leaflet/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
     crossorigin=""></script>
   <script src="https://cdn.jsdelivr.net/npm/leaflet-search@4.0.0/dist/leaflet-search.src.min.js"></script>
@@ -676,6 +716,11 @@
     crossorigin="anonymous"></script>
   <script async src="https://ga.jspm.io/npm:es-module-shims@1.5.5/dist/es-module-shims.js"></script>
   <script type="importmap">
+
+
+
+
+
     {
         "imports": {
             "@popperjs/core": "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/esm/popper.js",
@@ -686,6 +731,11 @@
   <script type="module" src="assets/js/main.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-MD23M10Q71"></script>
   <script>
+
+
+
+
+
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
